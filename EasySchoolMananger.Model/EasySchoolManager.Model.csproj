@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\Direction\" />
+    <Folder Include="Domain\Notations\" />
+    <Folder Include="Domain\Payments\" />
+    <Folder Include="Domain\Support\" />
+    <Folder Include="Domain\School\" />
+  </ItemGroup>
+
+</Project>

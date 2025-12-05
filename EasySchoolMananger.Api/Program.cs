@@ -1,3 +1,7 @@
+using EasySchoolMananger.Api;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // DI container.
@@ -10,6 +14,11 @@ builder.Services.AddControllers();
 //swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDbContext<DataBaseContext>(options =>
+{
+    options.UseNpgsql(builder.Configuration.GetConnectionString("Connection"));
+});
 
 var app = builder.Build();
 

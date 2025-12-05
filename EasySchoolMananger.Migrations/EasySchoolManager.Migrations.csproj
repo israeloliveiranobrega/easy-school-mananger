@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EasySchoolMananger.Infra\EasySchoolMananger.Infra.csproj" />
-    <ProjectReference Include="..\EasySchoolMananger.Model\EasySchoolMananger.Model.csproj" />
+    <ProjectReference Include="..\EasySchoolMananger.Infra\EasySchoolManager.Infra.csproj" />
+    <ProjectReference Include="..\EasySchoolMananger.Model\EasySchoolManager.Model.csproj" />
   </ItemGroup>
 
 </Project>

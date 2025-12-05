@@ -1,6 +1,6 @@
 <Solution>
-  <Project Path="../EasySchoolMananger.Api/EasySchoolMananger.Api.csproj" Id="7b6e0e0e-5b7e-4d42-a074-32ba911a2685" />
-  <Project Path="../EasySchoolMananger.Infra/EasySchoolMananger.Infra.csproj" Id="e18879e7-8078-4e69-9589-7060006135de" />
-  <Project Path="../EasySchoolMananger.Migrations/EasySchoolMananger.Migrations.csproj" />
-  <Project Path="EasySchoolMananger.Model.csproj" />
+  <Project Path="../EasySchoolMananger.Api/EasySchoolManager.Api.csproj" Id="7b6e0e0e-5b7e-4d42-a074-32ba911a2685" />
+  <Project Path="../EasySchoolMananger.Infra/EasySchoolManager.Infra.csproj" Id="e18879e7-8078-4e69-9589-7060006135de" />
+  <Project Path="../EasySchoolMananger.Migrations/EasySchoolManager.Migrations.csproj" />
+  <Project Path="EasySchoolManager.Model.csproj" />
 </Solution>

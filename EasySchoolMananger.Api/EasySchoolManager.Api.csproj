@@ -4,6 +4,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>4d31b032-565c-4527-9ed5-37ebcf9a28eb</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,13 +23,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\EasySchoolMananger.Infra\EasySchoolManager.Infra.csproj" />
+    <ProjectReference Include="..\EasySchoolMananger.Migrations\EasySchoolManager.Migrations.csproj" />
+    <ProjectReference Include="..\EasySchoolMananger.Model\EasySchoolManager.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EasySchoolMananger.Infra\EasySchoolMananger.Infra.csproj" />
-    <ProjectReference Include="..\EasySchoolMananger.Migrations\EasySchoolMananger.Migrations.csproj" />
-    <ProjectReference Include="..\EasySchoolMananger.Model\EasySchoolMananger.Model.csproj" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
