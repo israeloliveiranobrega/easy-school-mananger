@@ -7,11 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\Direction\" />
-    <Folder Include="Domain\Notations\" />
-    <Folder Include="Domain\Payments\" />
-    <Folder Include="Domain\Support\" />
-    <Folder Include="Domain\School\" />
+    <Folder Include="Domain\Academic\Notations\" />
+    <Folder Include="Domain\Social\Remarks\" />
   </ItemGroup>
 
 </Project>

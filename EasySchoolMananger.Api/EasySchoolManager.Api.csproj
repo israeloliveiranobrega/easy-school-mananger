@@ -9,27 +9,46 @@
 
   <ItemGroup>
 	  
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+	  
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+	  
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.1" />
+	  
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.1" />
+	  
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+	  
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+	  
+    <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
+	  
+    <PackageReference Include="Serilog.Sinks.Discord" Version="1.2.1" />
+	  
+    <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
 
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="10.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="10.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.0.1" />
 	  
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-	  
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EasySchoolManager.Application\EasySchoolManager.Application.csproj" />
+    <ProjectReference Include="..\EasySchoolManager.Contracts\EasySchoolManager.Contracts.csproj" />
     <ProjectReference Include="..\EasySchoolMananger.Infra\EasySchoolManager.Infra.csproj" />
-    <ProjectReference Include="..\EasySchoolMananger.Migrations\EasySchoolManager.Migrations.csproj" />
-    <ProjectReference Include="..\EasySchoolMananger.Model\EasySchoolManager.Model.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <Folder Include="Controllers\Academic\Notations\" />
+    <Folder Include="Controllers\Security\" />
+    <Folder Include="Controllers\Social\Remarks\" />
   </ItemGroup>
 
 </Project>

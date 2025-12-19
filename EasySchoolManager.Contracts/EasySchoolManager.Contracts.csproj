@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\Request\People\Staff\Secretary\" />
+    <Folder Include="DTOs\Request\People\Staff\Director\" />
+    <Folder Include="DTOs\Request\People\Staff\Coordinator\" />
+    <Folder Include="DTOs\Response\Academic\Notations\" />
+    <Folder Include="DTOs\Response\Academic\Subject\" />
+    <Folder Include="DTOs\Response\Academic\TeacherGrade\" />
+    <Folder Include="DTOs\Response\People\Staff\Coordinator\" />
+    <Folder Include="DTOs\Response\People\Staff\Director\" />
+    <Folder Include="DTOs\Response\People\Staff\Secretary\" />
+    <Folder Include="DTOs\Response\Security\" />
+    <Folder Include="DTOs\Response\Social\Remarks\" />
+    <Folder Include="DTOs\Request\Academic\Notations\" />
+    <Folder Include="DTOs\Request\Security\" />
+    <Folder Include="DTOs\Request\Social\Remarks\" />
+    <Folder Include="Validations\Request\Academic\Notations\" />
+    <Folder Include="Validations\Request\Academic\SchoolClass\" />
+    <Folder Include="Validations\Request\Academic\Subject\" />
+    <Folder Include="Validations\Request\Academic\TeacherGrade\" />
+    <Folder Include="Validations\Request\People\Base\User\" />
+    <Folder Include="Validations\Request\People\Staff\Coordinator\" />
+    <Folder Include="Validations\Request\People\Staff\Director\" />
+    <Folder Include="Validations\Request\People\Staff\Secretary\" />
+    <Folder Include="Validations\Request\People\Staff\Teacher\" />
+    <Folder Include="Validations\Request\People\Students\Student\" />
+    <Folder Include="Validations\Request\Security\" />
+    <Folder Include="Validations\Request\Social\Remarks\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EasySchoolMananger.Model\EasySchoolManager.Model.csproj" />
+  </ItemGroup>
+
+</Project>

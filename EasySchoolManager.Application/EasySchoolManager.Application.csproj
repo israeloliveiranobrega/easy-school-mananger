@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\Implementations\Business\Academic\Notations\" />
+    <Folder Include="Services\Implementations\Business\People\Staff\" />
+    <Folder Include="Services\Implementations\Business\People\Students\" />
+    <Folder Include="Services\Implementations\Business\Security\" />
+    <Folder Include="Services\Implementations\Business\Social\Remarks\" />
+    <Folder Include="Services\Implementations\Repository\Academic\Notations\" />
+    <Folder Include="Services\Implementations\Repository\Security\" />
+    <Folder Include="Services\Implementations\Repository\Social\Remarks\" />
+    <Folder Include="Services\Interfaces\Business\Academic\Notations\" />
+    <Folder Include="Services\Interfaces\Business\People\Staff\" />
+    <Folder Include="Services\Interfaces\Business\People\Students\" />
+    <Folder Include="Services\Interfaces\Business\Security\" />
+    <Folder Include="Services\Interfaces\Business\Social\Remarks\" />
+    <Folder Include="Services\Interfaces\Repository\Academic\Notations\" />
+    <Folder Include="Services\Interfaces\Repository\People\Staff\" />
+    <Folder Include="Services\Interfaces\Repository\People\Students\" />
+    <Folder Include="Services\Interfaces\Repository\Security\" />
+    <Folder Include="Services\Interfaces\Repository\Social\Remarks\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EasySchoolManager.Contracts\EasySchoolManager.Contracts.csproj" />
+    <ProjectReference Include="..\EasySchoolMananger.Infra\EasySchoolManager.Infra.csproj" />
+    <ProjectReference Include="..\EasySchoolMananger.Model\EasySchoolManager.Model.csproj" />
+  </ItemGroup>
+
+</Project>
